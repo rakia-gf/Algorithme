@@ -1,0 +1,28 @@
+algorithme phrase 
+var 
+p:integer ;
+m:integer :=0;
+v: integer :=0;
+e: integer := 0
+voy : string := "aeiouy"
+ph: string;
+i: integer;
+begin
+p:= length (ph)
+repeat 
+write ("donner une phrase");
+lire (ph) ;
+until (ph[p]=".");
+for i from 1 to p do
+if ph[i]= " " then :
+   e:= e+1;
+   m=e+1;
+endif 
+if ph[i] in voy then :
+     v=v+1;
+     end if 
+end_pour 
+write ("longeur de phrase ",p)
+write ("le nombre de mots",m)
+write ("le nombre de voyelles ",v)
+end
